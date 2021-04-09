@@ -44,7 +44,12 @@ function Board({ nrows, ncols, chanceLightStartsOn }) {
   }
 
   function hasWon() {
-    // TODO: check the board in state to determine whether the player has won.
+    // check the board in state to determine whether the player has won.
+    for (let row of board) {
+      let won = row.includes(true) ? false : true;
+      if (!won) return false;
+    }
+    return true;
   }
 
   function flipCellsAround(coord) {
