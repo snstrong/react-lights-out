@@ -1,3 +1,14 @@
 .App {
   text-align: center;
+  color: rgb(245, 204, 71);
+}
+
+.App-h1 {
+  color: rgb(245, 204, 71);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3rem;
+}
+
+body {
+  background-color: rgb(47, 41, 94);
 }
